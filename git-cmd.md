@@ -53,9 +53,35 @@ git diff --staged
 ```shell
 git reset <file-name>
 ```
+## remove file
+```shell
+git rm <file-name>
+```
 ## restore file changes to last commit
 
 ```shell
 git reset -<file-name>
+```
+# work with branches
+## see existing branches
+```shell
+git branch
+```
+## create a branch
+```shell
+git branch <branchName>
+```
+## change to another branch
+```shell
+git branch <branchName>
+```
+## merge two branches
+for marging to branches you should switch to main branch and then run this command
+```shell
+git merge <branchName>
+```
+## remove a branch 
+```shell
+git branch -d <branchName>
 ```
 
